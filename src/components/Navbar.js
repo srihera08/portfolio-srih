@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Button from "./Button"; 
+import logo from "/.logo";
+function Navbar() {
   return (
       < div className='navbar bg-violet-600'>
           <div className='container flex items-center mx-auto py-12'>
               <div className='w-3/12'>
-              <div className='logo text-center text-white uppercase text-2xl font-semibold'>
-                   nci
-              </div>
+              <logo/> 
               
               </div>
               <div className='w-6/12'>
@@ -17,6 +14,7 @@ function App() {
                 <li className='nav-item text-center text-white text-opacity-60 text-lg font-semibold'>profile</li>
                      </li>
                      <a className='text-white text-lg text-opacity-60 font-semibold'>skills</a>
+        
                   </lu>
                  
              
@@ -33,4 +31,4 @@ function App() {
   )
 }
 
-export default App;
+export default Navbar;
